@@ -1,0 +1,368 @@
+/*h1 h4 p a
+font-family: 'Dancing Script', cursive; 400 700
+font-family: 'Poppins', sans-serif;  300 400 500 600 700
+font-family: 'Roboto Condensed', sans-serif; 300 400 700*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+body{
+    background-image: linear-gradient(to right, #eebfd3, #c782b8);
+    color: white;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.barra_menu{
+    display: flex;
+    column-count: 5;
+    justify-content: space-around;
+    position: relative;
+    top: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+.barra_menu img{
+    position: relative;
+    top: -10px;   
+}
+.parte_uno{
+    position: relative;
+    top: 20px;
+    left: 105px;
+}
+.presentacion{
+    position: relative;
+    top:50px;
+    width: 500px;
+    position: relative;
+    left: 450px;
+    text-align: center;
+}
+.presentacion h4{
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    width: 600px;
+    position: relative;
+    left: -60px;
+}
+.presentacion p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}   
+.presentacion a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgba(224, 224, 224, 0.637);
+    padding: 10px 10px;
+    border-radius: 12px;
+    position: relative;
+    top: -45px;
+}
+.presentacion img{
+    position: relative;
+    top: -20px;
+}
+.arreglar{
+    position: relative;
+    top: -40px;
+}
+.ult_pro{
+    position: relative;
+    top:200px;
+    width: 850px;
+    position: relative;
+    left: 450px;
+    text-align: center;
+}
+.ult_pro h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    width: 600px;
+    position: relative;
+    left: -40px;
+}
+.ult_pro p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    position: relative;
+    left: -160px;
+    top: -20px;
+}
+.list_pro ul {
+    display: flex;
+    column-count: 3;
+    justify-content: space-around;  
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.list_pro ul li p{
+    position: relative;
+    top: -15px;
+}
+.uno{
+    position: relative;
+    top: -40px;
+}
+.port {
+    position: relative;
+    top: 120px;
+    left: 580px;
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: rgba(224, 224, 224, 0.637);
+    border-radius: 12px;
+    width: 150px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.pasos_pro {
+    position: relative;
+    top:250px;
+    left: 50px;
+}
+.pasos_pro ul {
+    display:flexbox;
+    justify-content: space-around;
+    column-count: 2;
+    list-style: decimal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    width: 1200px;
+}
+.pasos_pro ul img{
+    position: relative;
+    top:20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-container .img-fluid {
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.img-container .img-fluid:hover {
+    transform: scale(1.05);
+}
+
+.parte_tres ul{
+    display: flex;
+    padding: 10px 10px 10px 100px;
+    background-color: rgba(224, 224, 224, 0.637);
+    color: black;
+    position: relative;
+    top:300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    justify-content: space-evenly;
+}
+
+/*SOBRE MI*/
+.parte_uno_s h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 40px;
+    width: 600px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+}
+.uno_s{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.parrafo1_s {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    width: 700px;
+    text-align: justify;
+}
+.dos_s{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.parrafo2_s {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    width: 700px;
+    text-align: justify;
+}
+
+/*PORTAFOLIOS*/
+.parte_uno_p h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    position: relative;
+    top:-10px;
+}
+.secciones_p ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.arreglar_p{
+    position: relative;
+    top:-20px;
+}
+.arreglarp_p{
+    position: relative;
+    top:-20px;
+}
+.parte_uno_p h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    position: relative;
+    top:0px;
+}
+.parte_dos_p h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+.parte_dos_p ul{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 120px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*CONTACTOS*/
+.zoom_c:hover{
+    transform: scale(1.1);
+}
+.texto_c{
+    width: 500px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.parte_dos_c ul{
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 10px;
+}
+.container_c {
+    background-color: rgb(138, 138, 138);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+.datos_c {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc6c;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+button {
+    background-color: rgba(224, 224, 224, 0.637);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+
+/*zoom*/
+.UNO:hover{
+    transform: scale(1.1);
+}
+.DOS:hover{
+    transform: scale(1.1);
+}
+.TRES:hover{
+    transform: scale(1.1);
+}
+.CUATRO:hover{
+    transform: scale(1.1);
+}
+.CINCO:hover{
+    transform: scale(1.1);
+}
+.SEIS:hover{
+    transform: scale(1.1);
+}
+.SIETE:hover{
+    transform: scale(1.1);
+}
+.OCHO:hover{
+    transform: scale(1.1);
+}
+.NUEVE:hover{
+    transform: scale(1.1);
+}
+.DIEZ:hover{
+    transform: scale(1.1);
+}
+.ONCE:hover{
+    transform: scale(1.1);
+}
+.DOCE:hover{
+    transform: scale(1.1);
+}
